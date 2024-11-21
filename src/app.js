@@ -1,7 +1,9 @@
 import page from "./lib/page.js";
+import layoutView from "./middlewares/layoutView.js";
 import catsView from "./views/catsView.js";
 import homeView from "./views/homeView.js";
 
+page(layoutView);
 
 // Setup routes
 page('/', homeView);
