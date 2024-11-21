@@ -1,0 +1,17 @@
+{
+  "name": "rent-a-cat",
+  "version": "1.0.0",
+  "description": "SoftUni JS Application Course Project\r This is a practice course project to learn JS end to end application.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
