@@ -15,5 +15,6 @@ This is a practice course project to learn JS end to end application.
 - [] Playwright for e2e testing
 - [] Mocha for unit testing
 - [] Bundling (resolve package names)
+- [X] Git Source Control with GitHub
 
 ##
