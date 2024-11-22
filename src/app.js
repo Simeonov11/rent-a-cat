@@ -1,8 +1,9 @@
-import './config/firebaseInit.js';
+import app from './config/firebaseInit.js';
 import page from "./lib/page.js";
 import layoutView from "./middlewares/layoutView.js";
 import catsView from "./views/catsView.js";
 import homeView from "./views/homeView.js";
+import loginView from './views/loginView.js';
 
 
 // Setup layout
@@ -11,6 +12,7 @@ page(layoutView);
 // Setup routes
 page('/', homeView);
 page('/cats', catsView);
+page('/login', loginView);
 
 // Start routing
 page();
