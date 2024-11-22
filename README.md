@@ -5,12 +5,15 @@ SoftUni JS Application Course Project
 This is a practice course project to learn JS end to end application.
 
 ## Tech Stack
- * Vanilla JS
- * Firebase for backend, hosting and authentication
- * Tailwind CSS with UI components
- * Page.js for routing
- * Lit-html for templating
- * Playwright for e2e testing
- * Mocha for unit testing
+- [X] Vanilla JS
+- [X] Firebase authentication
+- [] Firebase database
+- [] Firebase hosting
+- [X] Tailwind CSS with UI components
+- [X] Page.js for routing
+- [X] Lit-html for templating
+- [] Playwright for e2e testing
+- [] Mocha for unit testing
+- [] Bundling (resolve package names)
 
 ##
