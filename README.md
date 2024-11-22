@@ -8,7 +8,7 @@ This is a practice course project to learn JS end to end application.
 - [X] Vanilla JS
 - [X] Firebase authentication
 - [] Firebase database
-- [] Firebase hosting
+- [X] Firebase hosting
 - [X] Tailwind CSS with UI components
 - [X] Page.js for routing
 - [X] Lit-html for templating
