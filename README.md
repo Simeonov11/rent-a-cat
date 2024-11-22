@@ -14,7 +14,8 @@ This is a practice course project to learn JS end to end application.
 - [X] Lit-html for templating
 - [] Playwright for e2e testing
 - [] Mocha for unit testing
-- [] Bundling (resolve package names)
+- [X] Vite Local dev server
+- [X] Vite Bundling (resolve package names)
 - [X] Git Source Control with GitHub
 
 ##
