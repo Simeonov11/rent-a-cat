@@ -8,7 +8,7 @@ const template = (cats) => html`
                 
 
                 ${cats.map(cat => html`
-                    <a href="#" class="group">
+                    <a href="/cats/${cat.id}/details" class="group">
                         <img src=${cat.imageUrl} alt=${cat.name} class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]">
                         <h3 class="mt-4 text-sm text-gray-700">${cat.name}</h3>
                         <p class="mt-1 text-lg font-medium text-gray-900">$${cat.price}</p>
