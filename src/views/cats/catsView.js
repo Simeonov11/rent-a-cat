@@ -1,7 +1,5 @@
-import { database } from '../config/firebaseInit.js';
-import { ref, get} from 'firebase/database';
-import { getAll } from '../api/catsApi.js';
-import { html } from '../lib/lit-html.js';
+import { html } from 'lit-html';
+import catsApi from "../../api/catsApi";
 
 const template = (cats) => html`
     <div class="bg-white">
@@ -24,7 +22,7 @@ const template = (cats) => html`
 
 export default async function (ctx) {
     try {
-        const cats = await getAll();
+        const cats = await catsApi.getAll();
 
         console.log(cats);
         ctx.render(template(cats));

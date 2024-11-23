@@ -9,6 +9,21 @@ async function getAll() {
     return cats;
 }
 
-export {
+async function create(data) {
+    const response = await fetch(`${url}.json`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data)
+    });
+
+    const result = await response.json();
+
+    return result;
+}
+
+export default{
     getAll,
+    create,
 }
