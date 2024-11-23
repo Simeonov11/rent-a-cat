@@ -7,7 +7,7 @@ This is a practice course project to learn JS end to end application.
 ## Tech Stack
 - [X] Vanilla JS
 - [X] Firebase authentication
-- [] Firebase database
+- [X] Firebase database
 - [X] Firebase hosting
 - [X] Tailwind CSS with UI components
 - [X] Page.js for routing
